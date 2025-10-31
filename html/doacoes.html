@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Doações</title>
+</head>
+
+<body>
+    <header>
+        <h1>Doações</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="voluntario.html">Voluntariado</a></li>
+                <li><a href="doacoes.html">Doações</a></li>
+                <li><a href="transparencia.html">Transparência</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="admin.html">Administração</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Campanha Atual</h2>
+            <p>Meta: R$ 50.000 — Progresso: R$ 35.000</p>
+            <img src="../imagens/porquin.jpg" alt="Imagem de doação" width="170" height="150">
+        </section>
+        <section>
+            <h2>Escolha um valor para doar</h2>
+            <form>
+                <label>
+                    <input type="radio" name="valor" value="20" /> R$ 20,00
+                </label><br />
+                <label>
+                    <input type="radio" name="valor" value="50" /> R$ 50,00
+                </label><br />
+                <label>
+                    <input type="radio" name="valor" value="100" /> R$ 100,00
+                </label><br />
+                <label for="personalizado">Outro valor:</label>
+                <input type="number" id="personalizado" name="valor" min="5" step="5" placeholder="R$" />
+                <br /><br />
+                <button type="submit">Continuar para pagamento</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Formas de pagamento</h2>
+            <ul>
+                <li>Pix: chave aleatória enviada após confirmação</li>
+                <li>Cartão de crédito ou débito</li>
+                <li>Boleto bancário</li>
+            </ul>
+            <p>Após o pagamento, você poderá se cadastrar para receber atualizações e relatórios.</p>
+            <a href="cadastro.html">Quero me cadastrar</a>
+        </section>
+
+        <section>
+            <h2>Transparência e Impacto</h2>
+            <p>Todos os recursos são aplicados diretamente nos cuidados, resgates e campanhas da ONG.</p>
+            <p>Você pode acompanhar os resultados e prestação de contas em nossos relatórios públicos.</p>
+            <a href="index.html">Ver relatórios</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 ONG Lar dos Peludos</p>
+    </footer>
+</body>
+
+</html>
